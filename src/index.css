@@ -1,0 +1,122 @@
+body {
+    background-color: black;
+    background-image: url('/public/images/bgwebapp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+  margin-top: -40px;
+  width: 130px;
+}
+.header{
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  width: 99.2%;
+  height: 50px;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: #333333c7;
+  border-bottom: 1px solid #003b7a;
+}
+.countainer{
+  display: flex;
+  justify-content: space-between;
+}
+.Links{
+  margin-top: 12px;
+}
+.user{
+  margin-top: 5px;
+}
+.link{
+  font-size: 17px;
+  color: #0055af;
+  margin-right: 28px;
+  text-decoration: none;
+}
+.link:hover{
+  color: #003b7a;
+}
+#login{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 70px;
+  margin-left: 10px;
+  background-color: #003b7a;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#Signup{
+  cursor: pointer;
+  color: white;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.bigtitle{
+  margin-top: 200px;
+  margin-left: 40px;
+  font-size: 30px;
+}
+.diffcolor{
+  color: #003b7a;
+}
+#login2{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 140px;
+  height: 30px;
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: #003b7a;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#icon{
+  display: none;
+  width: 20px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+#login2:hover #icon{
+  display: inline;
+  transition: .5s ease-in-out;
+}
+#login2:hover{
+  width: 160px;
+  transition: .5s ease-in-out;
+}
+.services{
+  position: absolute;
+  margin-top: 190px;
+}
+.containerservices{
+  display: flex;
+  justify-content: space-around;
+}
+#imgiconserv{
+  width: 60px;
+}
+.service{
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 25%;
+  background-color: #3333337c;
+  text-align: center;
+  cursor: pointer;
+}
+.service:hover{
+  background-color: #003b7a;
+  transition: .5s ease-in-out;
+}
