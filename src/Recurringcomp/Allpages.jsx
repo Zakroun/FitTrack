@@ -7,7 +7,13 @@ import { VerficationCode } from "../userPages/VreificationCode";
 import { Forgotpassword } from "../userPages/forgotpassword";
 import { VerficationCode2 } from "../userPages/VreificationCode2";
 import NewPassword from "../userPages/newPass";
+import Recipes from "../pages/recipes";
+import Recipe from "../pages/recipe";
+import { useLocation } from "react-router-dom";
+import Contact from "./Cantact";
 export default function Pages() {
+  const location = useLocation();
+  const recipe = location.state ;
   const { d } = useParams();
   if (d === "login") {
     return <Login />;
@@ -23,5 +29,11 @@ export default function Pages() {
     return <VerficationCode2 />;
   }else if(d === 'newpass'){
     return <NewPassword></NewPassword>
+  }else if(d === 'Recipes'){
+    return <><Recipes/><Footer2/></>
+  }else if(d === 'recipe'){
+    return <><Recipe recipe={recipe}/><Footer2/></>
+  }else if(d === 'contact'){
+    return <><Contact/></>
   }
 }

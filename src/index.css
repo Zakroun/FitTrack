@@ -166,7 +166,7 @@ body {
   color: black;
   padding-bottom: 30px;
   margin-top: 100px;
-  position: relative;
+  position: absolute;
   width: 100%;
   height: max-content;
   background-color: #333333;
@@ -218,6 +218,17 @@ body {
   margin-left: 30px;
 }
 .login{
+  display: flex;
+  width: 320px;
+  margin-left: 10%;
+  padding: 2.5%;
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 10%;
+  border: 1px solid #003b7a;
+  box-shadow: 0px 0px 15px 0px #003b7a;
+}
+.contact{
   display: flex;
   width: 320px;
   margin-left: 10%;
@@ -298,4 +309,91 @@ h3{
 }
 #abouth1{
   color: #003b7a;
+}
+.recipes{
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 1%;
+  color: white;
+}
+.recipesh1{
+  color: #004fa3;
+}
+.recipeslist{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  color: white;
+  flex-wrap: wrap;
+}
+.recipe{
+  text-align: left;
+  width: 25%;
+  border-radius: 10px;
+  background-color: #33333380;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  margin-bottom: 30px;
+}
+#searchinput{
+  transition: width 1s ease-in-out, box-shadow 1s ease-in-out, border 1s ease-in-out, background-color 1s ease-in-out;
+  width: 20%;
+  background-color: #333333bb;
+  border: none;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  padding: 5px;
+}
+#searchinput:focus{
+  width: 40%;
+  box-shadow: 0px 0px 5px 0px #003b7a;
+  border: 1.5px solid #003b7a;
+  background-color: #333333;
+}
+
+#btnadd,#btnsend{
+  background-color: #003b7a;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+}
+#btnadd:hover{
+  background-color: #004fa3;
+  transition: .5s ease-in-out;
+}
+#btnview{
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+  margin-left: 20px;
+}
+#btnview:hover{
+  background-color: #3333337c;
+  transition: .5s ease-in-out;
+}
+.recipe2{
+  margin-top: 10%;
+  padding: 2%;
+  margin-left: 3%;
+}
+#textarea{
+  max-width: 310px;
+  max-height: 100px;
+  background-color: #333333bb;
+  border: none;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  padding: 5px;
 }

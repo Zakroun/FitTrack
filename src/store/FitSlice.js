@@ -7,5 +7,18 @@ export const FitSlice = createSlice({
     tabExercice: muscleGroups,
     tabgymRecipes: gymRecipes,
     tabuserexercice: [],
+    tabRecipes : [],
+    tabmessages: []
   },
+  reducers:{
+    addrecipes: (state, action) => {
+      state.tabRecipes.push(action.payload);
+      alert("Recipe added to your recipes");
+    },
+    sendmessage: (state, action) => {
+      state.tabmessages.push(action.payload);
+      alert("Message sent");
+    }
+  }
 });
+export const { addrecipes ,sendmessage} = FitSlice.actions;

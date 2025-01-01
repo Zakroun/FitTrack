@@ -816,383 +816,241 @@ export const muscleGroups = [
     ],
   },
 ];
-export const gymRecipes = {
-  weightLoss: [
-    {
-      name: "Grilled Chicken Salad with Avocado",
-      description: "A low-calorie, high-protein salad to help with fat loss.",
-      ingredients: [
-        "150g grilled chicken breast",
-        "1/2 avocado, sliced",
-        "Mixed greens",
-        "1 tablespoon olive oil",
-        "1 tablespoon balsamic vinegar",
-      ],
-      instructions:
-        "Grill chicken, mix with greens and avocado, drizzle with oil and vinegar.",
-    },
-    {
-      name: "Egg White Scramble with Spinach and Mushrooms",
-      description:
-        "A protein-packed, low-calorie breakfast perfect for weight loss.",
-      ingredients: [
-        "4 egg whites",
-        "1/2 cup spinach",
-        "1/4 cup mushrooms",
-        "1 teaspoon olive oil",
-      ],
-      instructions:
-        "Sauté spinach and mushrooms, add egg whites, cook until set.",
-    },
-    {
-      name: "Zucchini Noodles with Pesto Chicken",
-      description: "A low-carb meal with vegetables and lean protein.",
-      ingredients: [
-        "1 zucchini",
-        "150g grilled chicken",
-        "2 tablespoons pesto",
-        "Cherry tomatoes",
-      ],
-      instructions:
-        "Sauté zucchini noodles, toss with pesto, top with chicken and tomatoes.",
-    },
-    {
-      name: "Greek Yogurt with Berries",
-      description: "A healthy snack with probiotics and antioxidants.",
-      ingredients: [
-        "1/2 cup Greek yogurt",
-        "1/4 cup mixed berries",
-        "1 teaspoon chia seeds",
-      ],
-      instructions: "Mix yogurt with berries and top with chia seeds.",
-    },
-    {
-      name: "Salmon with Asparagus",
-      description: "A lean, high-protein meal with healthy fats.",
-      ingredients: [
-        "200g salmon",
-        "1 bunch asparagus",
-        "1 tablespoon olive oil",
-        "Lemon wedges",
-      ],
-      instructions: "Grill salmon, roast asparagus, and serve with lemon.",
-    },
-    {
-      name: "Cucumber and Tomato Salad",
-      description: "Refreshing salad with minimal calories.",
-      ingredients: [
-        "1 cucumber",
-        "2 tomatoes",
-        "1 tablespoon olive oil",
-        "1 tablespoon balsamic vinegar",
-      ],
-      instructions: "Chop vegetables, mix with oil and vinegar.",
-    },
-    {
-      name: "Cauliflower Rice Stir-Fry",
-      description: "Low-carb alternative to fried rice.",
-      ingredients: [
-        "1 cup cauliflower rice",
-        "1/4 cup peas",
-        "1/4 cup carrots",
-        "Soy sauce",
-      ],
-      instructions: "Stir-fry cauliflower rice and vegetables, add soy sauce.",
-    },
-    {
-      name: "Chicken Lettuce Wraps",
-      description: "Healthy, low-carb wraps with lean protein.",
-      ingredients: [
-        "150g ground chicken",
-        "Lettuce leaves",
-        "1/4 cup diced onions",
-        "Soy sauce",
-      ],
-      instructions: "Cook chicken, season with soy sauce, wrap in lettuce.",
-    },
-    {
-      name: "Avocado Toast with Egg",
-      description: "Healthy fats and protein on whole-grain toast.",
-      ingredients: ["2 slices whole grain bread", "1/2 avocado", "1 egg"],
-      instructions: "Toast bread, mash avocado, top with fried egg.",
-    },
-    {
-      name: "Tomato Basil Soup",
-      description: "Light soup with antioxidant-rich tomatoes.",
-      ingredients: [
-        "4 tomatoes",
-        "1/4 cup basil",
-        "1 cup vegetable broth",
-        "1 teaspoon olive oil",
-      ],
-      instructions: "Cook tomatoes with broth, blend, and garnish with basil.",
-    },
-    {
-      name: "Spaghetti Squash with Marinara",
-      description: "Low-carb pasta alternative.",
-      ingredients: [
-        "1 spaghetti squash",
-        "1/2 cup marinara sauce",
-        "Parmesan cheese",
-      ],
-      instructions:
-        "Roast squash, scrape into strands, top with sauce and cheese.",
-    },
-    {
-      name: "Grilled Shrimp with Veggies",
-      description: "Low-calorie, protein-packed seafood meal.",
-      ingredients: ["150g shrimp", "1 zucchini", "1 bell pepper", "Olive oil"],
-      instructions: "Grill shrimp and vegetables, season with olive oil.",
-    },
-    {
-      name: "Chia Pudding with Almonds",
-      description: "A high-fiber, low-calorie dessert.",
-      ingredients: [
-        "2 tablespoons chia seeds",
-        "1/2 cup almond milk",
-        "1 tablespoon almonds",
-      ],
-      instructions:
-        "Mix chia seeds with almond milk, refrigerate overnight, top with almonds.",
-    },
-    {
-      name: "Chicken and Broccoli Stir-Fry",
-      description: "Protein and fiber-packed stir-fry.",
-      ingredients: [
-        "150g chicken breast",
-        "1 cup broccoli",
-        "1 tablespoon soy sauce",
-        "1 teaspoon ginger",
-      ],
-      instructions: "Stir-fry chicken and broccoli with soy sauce and ginger.",
-    },
-    {
-      name: "Baked Cod with Veggies",
-      description: "Lean fish with a side of roasted vegetables.",
-      ingredients: [
-        "200g cod",
-        "1 cup mixed vegetables",
-        "1 tablespoon olive oil",
-      ],
-      instructions: "Bake cod, roast vegetables with olive oil.",
-    },
-    {
-      name: "Tuna Salad with Greek Yogurt",
-      description: "Healthy tuna salad with creamy Greek yogurt.",
-      ingredients: ["1 can tuna", "2 tablespoons Greek yogurt", "Lettuce"],
-      instructions: "Mix tuna with yogurt, serve on a bed of lettuce.",
-    },
-    {
-      name: "Sweet Potato Fries",
-      description: "Low-calorie, nutritious fries.",
-      ingredients: [
-        "1 sweet potato",
-        "1 tablespoon olive oil",
-        "Salt and pepper",
-      ],
-      instructions:
-        "Cut sweet potato into fries, roast with olive oil and seasonings.",
-    },
-    {
-      name: "Stuffed Bell Peppers",
-      description: "Low-carb, filling meal with lean protein.",
-      ingredients: [
-        "2 bell peppers",
-        "100g ground turkey",
-        "1/4 cup quinoa",
-        "Tomato sauce",
-      ],
-      instructions:
-        "Stuff peppers with turkey, quinoa, and sauce, bake until tender.",
-    },
-    {
-      name: "Eggplant Parmesan",
-      description: "Low-carb alternative to traditional parmesan.",
-      ingredients: [
-        "1 eggplant",
-        "1/2 cup marinara sauce",
-        "1/4 cup mozzarella cheese",
-      ],
-      instructions:
-        "Layer eggplant slices with sauce and cheese, bake until golden.",
-    },
-    {
-      name: "Zucchini Chips",
-      description: "Healthy, low-calorie snack alternative to chips.",
-      ingredients: ["1 zucchini", "1 tablespoon olive oil", "Sea salt"],
-      instructions: "Slice zucchini, toss in olive oil, and bake until crispy.",
-    },
-  ],
+export const gymRecipes = [
+  // Weight Loss Recipes
+  {
+    type: "weightLoss",
+    name: "Grilled Chicken Salad with Avocado",
+    description: "A low-calorie, high-protein salad to help with fat loss.",
+    ingredients: [
+      "150g grilled chicken breast",
+      "1/2 avocado, sliced",
+      "Mixed greens",
+      "1 tablespoon olive oil",
+      "1 tablespoon balsamic vinegar",
+    ],
+    instructions:
+      "Grill chicken, mix with greens and avocado, drizzle with oil and vinegar.",
+  },
+  {
+    type: "weightLoss",
+    name: "Egg White Scramble with Spinach and Mushrooms",
+    description:
+      "A protein-packed, low-calorie breakfast perfect for weight loss.",
+    ingredients: [
+      "4 egg whites",
+      "1/2 cup spinach",
+      "1/4 cup mushrooms",
+      "1 teaspoon olive oil",
+    ],
+    instructions:
+      "Sauté spinach and mushrooms, add egg whites, cook until set.",
+  },
+  {
+    type: "weightLoss",
+    name: "Zucchini Noodles with Pesto Chicken",
+    description: "A low-carb meal with vegetables and lean protein.",
+    ingredients: [
+      "1 zucchini",
+      "150g grilled chicken",
+      "2 tablespoons pesto",
+      "Cherry tomatoes",
+    ],
+    instructions:
+      "Sauté zucchini noodles, toss with pesto, top with chicken and tomatoes.",
+  },
+  {
+    type: "weightLoss",
+    name: "Greek Yogurt with Berries",
+    description: "A healthy snack with probiotics and antioxidants.",
+    ingredients: [
+      "1/2 cup Greek yogurt",
+      "1/4 cup mixed berries",
+      "1 teaspoon chia seeds",
+    ],
+    instructions: "Mix yogurt with berries and top with chia seeds.",
+  },
+  {
+    type: "weightLoss",
+    name: "Salmon with Asparagus",
+    description: "A lean, high-protein meal with healthy fats.",
+    ingredients: [
+      "200g salmon",
+      "1 bunch asparagus",
+      "1 tablespoon olive oil",
+      "Lemon wedges",
+    ],
+    instructions: "Grill salmon, roast asparagus, and serve with lemon.",
+  },
+  {
+    type: "weightLoss",
+    name: "Cucumber and Tomato Salad",
+    description: "Refreshing salad with minimal calories.",
+    ingredients: [
+      "1 cucumber",
+      "2 tomatoes",
+      "1 tablespoon olive oil",
+      "1 tablespoon balsamic vinegar",
+    ],
+    instructions: "Chop vegetables, mix with oil and vinegar.",
+  },
+  {
+    type: "weightLoss",
+    name: "Chicken Lettuce Wraps",
+    description: "Healthy, low-carb wraps with lean protein.",
+    ingredients: [
+      "150g ground chicken",
+      "Lettuce leaves",
+      "1/4 cup diced onions",
+      "Soy sauce",
+    ],
+    instructions: "Cook chicken, season with soy sauce, wrap in lettuce.",
+  },
+  {
+    type: "weightLoss",
+    name: "Sweet Potato Fries",
+    description: "Low-calorie, nutritious fries.",
+    ingredients: [
+      "1 sweet potato",
+      "1 tablespoon olive oil",
+      "Salt and pepper",
+    ],
+    instructions:
+      "Cut sweet potato into fries, roast with olive oil and seasonings.",
+  },
+  {
+    type: "weightLoss",
+    name: "Zucchini Chips",
+    description: "Healthy, low-calorie snack alternative to chips.",
+    ingredients: ["1 zucchini", "1 tablespoon olive oil", "Sea salt"],
+    instructions: "Slice zucchini, toss in olive oil, and bake until crispy.",
+  },
+  {
+    type: "weightLoss",
+    name: "Spicy Tuna Salad",
+    description: "A flavorful, low-carb dish for weight loss.",
+    ingredients: [
+      "1 can tuna",
+      "1 tablespoon Greek yogurt",
+      "1 teaspoon hot sauce",
+      "Diced celery",
+    ],
+    instructions: "Mix tuna, yogurt, hot sauce, and celery until combined.",
+  },
 
-  weightGain: [
-    {
-      name: "Protein-Packed Smoothie",
-      description: "A calorie-dense smoothie to help increase weight.",
-      ingredients: [
-        "1 banana",
-        "1 scoop protein powder",
-        "1 tablespoon peanut butter",
-        "1/2 cup whole milk",
-      ],
-      instructions: "Blend all ingredients until smooth.",
-    },
-    {
-      name: "Chicken and Quinoa Bowl",
-      description: "A high-protein, high-calorie meal.",
-      ingredients: [
-        "150g grilled chicken",
-        "1/2 cup cooked quinoa",
-        "1/2 avocado",
-        "1 tablespoon olive oil",
-      ],
-      instructions:
-        "Combine chicken, quinoa, and avocado, drizzle with olive oil.",
-    },
-    {
-      name: "Sweet Potato and Black Bean Salad",
-      description: "A hearty salad packed with carbs and protein.",
-      ingredients: [
-        "1 sweet potato",
-        "1/2 cup black beans",
-        "1/4 cup corn",
-        "1 tablespoon olive oil",
-      ],
-      instructions:
-        "Mix roasted sweet potato with beans and corn, drizzle with olive oil.",
-    },
-    {
-      name: "Egg and Avocado Toast",
-      description: "A quick and easy calorie-dense meal.",
-      ingredients: ["2 slices whole grain bread", "2 eggs", "1/2 avocado"],
-      instructions: "Toast bread, fry eggs, and mash avocado on toast.",
-    },
-    {
-      name: "Peanut Butter Banana Oatmeal",
-      description: "High-calorie breakfast with healthy fats.",
-      ingredients: [
-        "1/2 cup oats",
-        "1 banana",
-        "2 tablespoons peanut butter",
-        "1 cup whole milk",
-      ],
-      instructions: "Cook oats with milk, top with banana and peanut butter.",
-    },
-    {
-      name: "Beef and Rice Stir-Fry",
-      description: "A protein and carb-packed stir-fry.",
-      ingredients: [
-        "150g ground beef",
-        "1/2 cup cooked rice",
-        "1/4 cup peas",
-        "1 tablespoon soy sauce",
-      ],
-      instructions: "Cook beef and vegetables, stir in rice and soy sauce.",
-    },
-    {
-      name: "Coconut Yogurt Parfait",
-      description: "A high-calorie, creamy dessert.",
-      ingredients: [
-        "1/2 cup coconut yogurt",
-        "1/4 cup granola",
-        "1 tablespoon honey",
-        "Berries",
-      ],
-      instructions:
-        "Layer yogurt with granola, drizzle with honey, top with berries.",
-    },
-    {
-      name: "Salmon with Sweet Potato Mash",
-      description: "A high-protein, healthy-fat meal with complex carbs.",
-      ingredients: [
-        "200g salmon",
-        "1 medium sweet potato",
-        "1 tablespoon olive oil",
-      ],
-      instructions: "Bake salmon, mash sweet potato with olive oil.",
-    },
-    {
-      name: "Chicken Alfredo Pasta",
-      description: "A calorie-dense pasta dish with protein.",
-      ingredients: ["150g chicken", "1/2 cup alfredo sauce", "1 cup pasta"],
-      instructions: "Cook pasta, top with grilled chicken and alfredo sauce.",
-    },
-    {
-      name: "Almond Butter Banana Smoothie",
-      description: "High-calorie smoothie with healthy fats and protein.",
-      ingredients: [
-        "1 banana",
-        "1 tablespoon almond butter",
-        "1 scoop protein powder",
-        "1 cup almond milk",
-      ],
-      instructions: "Blend all ingredients until smooth.",
-    },
-    {
-      name: "Avocado Chicken Wrap",
-      description: "A high-calorie wrap packed with protein and healthy fats.",
-      ingredients: [
-        "1 tortilla",
-        "150g grilled chicken",
-        "1/2 avocado",
-        "Lettuce",
-      ],
-      instructions: "Wrap chicken, avocado, and lettuce in tortilla.",
-    },
-    {
-      name: "Beef Tacos with Avocado",
-      description: "High-calorie tacos with protein and healthy fats.",
-      ingredients: ["150g ground beef", "2 tortillas", "1/2 avocado", "Cheese"],
-      instructions: "Cook beef, assemble tacos with avocado and cheese.",
-    },
-    {
-      name: "Eggs and Cheese Scramble",
-      description: "A protein-rich breakfast to help with weight gain.",
-      ingredients: ["3 eggs", "1/4 cup shredded cheese", "1 tablespoon butter"],
-      instructions: "Scramble eggs with cheese and butter.",
-    },
-    {
-      name: "Chocolate Protein Pancakes",
-      description: "High-calorie, protein-packed pancakes.",
-      ingredients: [
-        "1 scoop chocolate protein powder",
-        "1/2 cup oats",
-        "1 egg",
-        "1/4 cup milk",
-      ],
-      instructions: "Blend ingredients, cook on a skillet.",
-    },
-    {
-      name: "Cottage Cheese and Pineapple",
-      description: "A high-calorie, protein-packed snack.",
-      ingredients: ["1/2 cup cottage cheese", "1/4 cup pineapple"],
-      instructions: "Mix cottage cheese with pineapple chunks.",
-    },
-    {
-      name: "Rice and Beans with Avocado",
-      description: "A calorie-dense meal packed with protein and carbs.",
-      ingredients: ["1/2 cup rice", "1/2 cup beans", "1/2 avocado"],
-      instructions: "Cook rice and beans, serve with avocado.",
-    },
-    {
-      name: "Chicken and Sweet Potato Bowl",
-      description: "A balanced meal for weight gain.",
-      ingredients: [
-        "150g chicken breast",
-        "1 medium sweet potato",
-        "1/2 cup quinoa",
-      ],
-      instructions: "Grill chicken, roast sweet potato, and serve with quinoa.",
-    },
-    {
-      name: "Chocolate Almond Smoothie",
-      description: "A calorie-dense, protein-packed smoothie.",
-      ingredients: [
-        "1 scoop protein powder",
-        "1 tablespoon almond butter",
-        "1 cup almond milk",
-        "1 tablespoon cocoa powder",
-      ],
-      instructions: "Blend all ingredients until smooth.",
-    },
-  ],
-};
+  // Weight Gain Recipes
+  {
+    type: "weightGain",
+    name: "Protein-Packed Smoothie",
+    description: "A calorie-dense smoothie to help increase weight.",
+    ingredients: [
+      "1 banana",
+      "1 scoop protein powder",
+      "1 tablespoon peanut butter",
+      "1/2 cup whole milk",
+    ],
+    instructions: "Blend all ingredients until smooth.",
+  },
+  {
+    type: "weightGain",
+    name: "Chicken and Quinoa Bowl",
+    description: "A high-protein, high-calorie meal.",
+    ingredients: [
+      "150g grilled chicken",
+      "1/2 cup cooked quinoa",
+      "1/2 avocado",
+      "1 tablespoon olive oil",
+    ],
+    instructions:
+      "Combine chicken, quinoa, and avocado, drizzle with olive oil.",
+  },
+  {
+    type: "weightGain",
+    name: "Sweet Potato and Black Bean Salad",
+    description: "A hearty salad packed with carbs and protein.",
+    ingredients: [
+      "1 sweet potato",
+      "1/2 cup black beans",
+      "1/4 cup corn",
+      "1 tablespoon olive oil",
+    ],
+    instructions:
+      "Mix roasted sweet potato with beans and corn, drizzle with olive oil.",
+  },
+  {
+    type: "weightGain",
+    name: "Egg and Avocado Toast",
+    description: "A quick and easy calorie-dense meal.",
+    ingredients: ["2 slices whole grain bread", "2 eggs", "1/2 avocado"],
+    instructions: "Toast bread, fry eggs, and mash avocado on toast.",
+  },
+  {
+    type: "weightGain",
+    name: "Peanut Butter Banana Oatmeal",
+    description: "High-calorie breakfast with healthy fats.",
+    ingredients: [
+      "1/2 cup oats",
+      "1 banana",
+      "2 tablespoons peanut butter",
+      "1 cup whole milk",
+    ],
+    instructions: "Cook oats with milk, top with banana and peanut butter.",
+  },
+  {
+    type: "weightGain",
+    name: "Beef and Rice Stir-Fry",
+    description: "A protein and carb-packed stir-fry.",
+    ingredients: [
+      "150g ground beef",
+      "1/2 cup cooked rice",
+      "1/4 cup peas",
+      "1 tablespoon soy sauce",
+    ],
+    instructions: "Cook beef and vegetables, stir in rice and soy sauce.",
+  },
+  {
+    type: "weightGain",
+    name: "Chicken Alfredo Pasta",
+    description: "A calorie-dense pasta dish with protein.",
+    ingredients: ["150g chicken", "1/2 cup alfredo sauce", "1 cup pasta"],
+    instructions: "Cook pasta, top with grilled chicken and alfredo sauce.",
+  },
+  {
+    type: "weightGain",
+    name: "Coconut Yogurt Parfait",
+    description: "A high-calorie, creamy dessert.",
+    ingredients: [
+      "1/2 cup coconut yogurt",
+      "1/4 cup granola",
+      "1 tablespoon honey",
+      "Berries",
+    ],
+    instructions:
+      "Layer yogurt with granola, drizzle with honey, top with berries.",
+  },
+  {
+    type: "weightGain",
+    name: "Turkey and Cheese Wraps",
+    description: "A quick and calorie-dense snack.",
+    ingredients: [
+      "3 slices turkey",
+      "2 slices cheese",
+      "1 tortilla wrap",
+      "Lettuce",
+    ],
+    instructions: "Layer turkey, cheese, and lettuce in a wrap, roll it up.",
+  },
+  {
+    type: "weightGain",
+    name: "Nut Butter Energy Balls",
+    description: "A perfect snack for weight gain.",
+    ingredients: [
+      "1 cup oats",
+      "1/2 cup peanut butter",
+      "1/4 cup honey",
+      "1/4 cup chocolate chips",
+    ],
+    instructions:
+      "Mix all ingredients, roll into balls, refrigerate until firm.",
+  },
+];
