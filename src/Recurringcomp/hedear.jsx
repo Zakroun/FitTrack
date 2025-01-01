@@ -4,21 +4,21 @@ export default function Header() {
     <div className="header">
       <div className="countainer">
         <div className="logo">
-          <img src="../images/logo1.png" alt="logo" id="logo" />
+        <Link to="/" className="link"><img src="../images/logo1.png" alt="logo" id="logo" /></Link>
         </div>
         <div className="Links">
           <Link to="/" className="link">Home</Link>
-          <Link to="/Programs" className="link">Programs</Link>
-          <Link to="/WorkoutVideos" className="link">Workout Videos</Link>
-          <Link to="/Recipes" className="link">Recipes</Link>
-          <Link to="/contact" className="link">Contact</Link>
-          <Link to="/About" className="link">About</Link>
+          <Link to="/pages/Programs" className="link">Programs</Link>
+          <Link to="/pages/WorkoutVideos" className="link">Workout Videos</Link>
+          <Link to="/pages/Recipes" className="link">Recipes</Link>
+          <Link to="/pages/contact" className="link">Contact</Link>
+          <Link to="/pages/About" className="link">About</Link>
         </div>
         <div className="user">
-          <Link to="/signup">
+          <Link to="/pages/signup">
             <button id="Signup">Sign Up</button>
           </Link>
-          <Link to="/login">
+          <Link to="/pages/login">
             <button id="login">Login</button>
           </Link>
         </div>

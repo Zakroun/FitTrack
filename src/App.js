@@ -6,11 +6,11 @@ import { Routes } from "react-router-dom";
 import Services from "./Home/Services";
 import Statistics from "./Home/Statistics";
 import Footer from "./Recurringcomp/Footer";
+import Pages from "./Recurringcomp/Allpages";
 export default function App() {
   return (
     <div>
       <Header />
-
       <Routes>
         <Route
           path="/"
@@ -23,6 +23,7 @@ export default function App() {
             </>
           }
         />
+        <Route path="/pages/:d" element={<Pages/>} />
       </Routes>
     </div>
   );

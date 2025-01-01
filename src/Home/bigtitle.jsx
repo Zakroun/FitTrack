@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 export default function BigTitle() {
+  document.title = "Home - FitTrack";
   return (
     <div className="bigtitle">
       <h1>
