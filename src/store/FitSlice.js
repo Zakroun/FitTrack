@@ -18,7 +18,11 @@ export const FitSlice = createSlice({
     sendmessage: (state, action) => {
       state.tabmessages.push(action.payload);
       alert("Message sent");
+    },
+    addexercice : (state, action) => {
+      state.tabuserexercice.push(action.payload);
+      alert("Exercice added to your programs");
     }
   }
 });
-export const { addrecipes ,sendmessage} = FitSlice.actions;
+export const { addrecipes ,sendmessage , addexercice} = FitSlice.actions;

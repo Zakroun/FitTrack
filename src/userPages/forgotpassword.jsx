@@ -25,7 +25,7 @@ export function Forgotpassword() {
           <form>
             <input
               type="text"
-              placeholder="Verification Code"
+              placeholder="Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               id="logininput"

@@ -72,6 +72,7 @@ body {
   color: #003b7a;
 }
 #login2{
+  transition: width .5s ease-in-out;
   margin-top: 10px;
   margin-right: 10px;
   width: 140px;
@@ -86,6 +87,7 @@ body {
   cursor: pointer;
 }
 #icon{
+  transition: display .5s ease-in-out;
   display: none;
   width: 20px;
   margin-left: 5px;
@@ -93,11 +95,9 @@ body {
 }
 #login2:hover #icon{
   display: inline;
-  transition: .5s ease-in-out;
 }
 #login2:hover{
   width: 160px;
-  transition: .5s ease-in-out;
 }
 .services{
   position: absolute;
@@ -305,19 +305,25 @@ h2{
   color: #004fa3;
 }
 h3{
-  color: #656565;
+  color: #949494;
 }
 #abouth1{
   color: #003b7a;
 }
-.recipes{
+.recipes,.Programs{ 
+  /* background-color: white; */
   text-align: center;
   margin-top: 10%;
   margin-left: 1%;
   color: white;
 }
-.recipesh1{
+.recipesh1,.Programsh1{
   color: #004fa3;
+  font-size: 40px;
+}
+.Programsh2{
+  color: #8b8b8b;
+  font-size: 30px;
 }
 .recipeslist{
   display: flex;
@@ -326,7 +332,7 @@ h3{
   color: white;
   flex-wrap: wrap;
 }
-.recipe{
+.recipe,.Programexercice{
   text-align: left;
   width: 25%;
   border-radius: 10px;
@@ -396,4 +402,26 @@ h3{
   outline: none;
   color: white;
   padding: 5px;
+}
+.Program{
+  /* background-color: #33333385; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 10px;
+}
+.listexercice{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.exercice{
+  text-align: left;
+  width: 25%;
+  border-radius: 10px;
+  background-color: #33333380;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  margin-bottom: 30px;
 }

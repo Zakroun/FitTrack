@@ -11,6 +11,7 @@ import Recipes from "../pages/recipes";
 import Recipe from "../pages/recipe";
 import { useLocation } from "react-router-dom";
 import Contact from "./Cantact";
+import Programs from "../pages/Programs";
 export default function Pages() {
   const location = useLocation();
   const recipe = location.state ;
@@ -33,7 +34,10 @@ export default function Pages() {
     return <><Recipes/><Footer2/></>
   }else if(d === 'recipe'){
     return <><Recipe recipe={recipe}/><Footer2/></>
-  }else if(d === 'contact'){
+  }else if(d === 'Programs'){
+    return <><Programs/><Footer2/></>
+  }
+  else if(d === 'contact'){
     return <><Contact/></>
   }
 }
