@@ -12,6 +12,7 @@ import Recipe from "../pages/recipe";
 import { useLocation } from "react-router-dom";
 import Contact from "./Cantact";
 import Programs from "../pages/Programs";
+import WeekPrograme from "../pages/weekprog";
 export default function Pages() {
   const location = useLocation();
   const recipe = location.state ;
@@ -39,5 +40,7 @@ export default function Pages() {
   }
   else if(d === 'contact'){
     return <><Contact/></>
+  }else if(d === 'weeklyGymPrograms'){
+    return <><WeekPrograme/><Footer2/></>
   }
 }

@@ -1,14 +1,14 @@
 body {
-    background-color: black;
-    background-image: url('/public/images/bgwebapp.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    color: white;
-    padding: 0;
-    box-sizing: border-box;
+  background-color: black;
+  background-image: url("/public/images/bgwebapp.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: white;
+  padding: 0;
+  box-sizing: border-box;
 }
-/* From Uiverse.io by PaolaMarai */ 
+/* From Uiverse.io by PaolaMarai */
 .error {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -56,11 +56,11 @@ body {
   fill: #fff;
 }
 
-#logo{
+#logo {
   margin-top: -40px;
   width: 130px;
 }
-.header{
+.header {
   z-index: 1;
   left: 0px;
   top: 0px;
@@ -74,26 +74,26 @@ body {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
-.countainer{
+.countainer {
   display: flex;
   justify-content: space-between;
 }
-.Links{
+.Links {
   margin-top: 12px;
 }
-.user{
+.user {
   margin-top: 5px;
 }
-.link{
+.link {
   font-size: 17px;
   color: #0055af;
   margin-right: 28px;
   text-decoration: none;
 }
-.link:hover{
+.link:hover {
   color: #003b7a;
 }
-#login{
+#login {
   margin-top: 10px;
   margin-right: 10px;
   width: 70px;
@@ -105,22 +105,22 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-#Signup{
+#Signup {
   cursor: pointer;
   color: white;
   border: none;
   background-color: rgba(255, 255, 255, 0);
 }
-.bigtitle{
+.bigtitle {
   margin-top: 200px;
   margin-left: 40px;
   font-size: 30px;
 }
-.diffcolor{
+.diffcolor {
   color: #003b7a;
 }
-#login2{
-  transition: width .5s ease-in-out;
+#login2 {
+  transition: width 0.5s ease-in-out;
   margin-top: 10px;
   margin-right: 10px;
   width: 140px;
@@ -134,31 +134,31 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-#icon{
-  transition: display .5s ease-in-out;
+#icon {
+  transition: display 0.5s ease-in-out;
   display: none;
   width: 20px;
   margin-left: 5px;
   vertical-align: middle;
 }
-#login2:hover #icon{
+#login2:hover #icon {
   display: inline;
 }
-#login2:hover{
+#login2:hover {
   width: 160px;
 }
-.services{
+.services {
   position: absolute;
   margin-top: 190px;
 }
-.containerservices{
+.containerservices {
   display: flex;
   justify-content: space-around;
 }
-#imgiconserv{
+#imgiconserv {
   width: 60px;
 }
-.service{
+.service {
   border-radius: 10px;
   border: 1px solid black;
   padding: 15px;
@@ -167,21 +167,21 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.service:hover{
+.service:hover {
   background-color: #003b7a;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
-.statistics{
+.statistics {
   z-index: -1;
   margin-top: 600px;
   position: absolute;
 }
-.container_statistics{
+.container_statistics {
   display: flex;
   margin-left: 70px;
 }
-.stat{
+.stat {
   margin-right: 35px;
   text-align: center;
   border-radius: 20px;
@@ -191,11 +191,11 @@ body {
   background-color: #003b7a;
   cursor: pointer;
 }
-.stat:hover{
-  background-color:#3333337c;
-  transition: .5s ease-in-out;
+.stat:hover {
+  background-color: #3333337c;
+  transition: 0.5s ease-in-out;
 }
-.footer{
+.footer {
   padding-top: 20px;
   z-index: -1;
   color: black;
@@ -208,7 +208,7 @@ body {
   border-top: 1px solid #003b7a;
   text-align: center;
 }
-.footer2{
+.footer2 {
   padding-top: 20px;
   z-index: -1;
   color: black;
@@ -221,19 +221,19 @@ body {
   border-top: 1px solid #003b7a;
   text-align: center;
 }
-.containerfooter{
+.containerfooter {
   margin-left: 80px;
   display: flex;
   justify-content: space-around;
 }
-#footerp{
+#footerp {
   color: #004fa3;
 }
-.footerinfo{
+.footerinfo {
   width: 30%;
   text-align: left;
 }
-.footerlinks{
+.footerlinks {
   padding-left: 20px;
   /* border-left: 2px solid #003b7a;
   border-right: 2px solid #003b7a; */
@@ -241,31 +241,31 @@ body {
   width: 30%;
   text-align: left;
 }
-.divlinks{
+.divlinks {
   display: flex;
   flex-direction: column;
 }
-.footercontact{
+.footercontact {
   width: 30%;
 }
-#logofooter{
+#logofooter {
   width: 270px;
   margin-top: -70px;
 }
-#socialimg{
+#socialimg {
   opacity: 0.5;
   width: 40px;
   margin-right: 10px;
 }
-#socialimg:hover{
+#socialimg:hover {
   opacity: 1;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-.Socialmedia{
-  margin-top:-70px ;
+.Socialmedia {
+  margin-top: -70px;
   margin-left: 30px;
 }
-.login{
+.login {
   display: flex;
   width: 320px;
   margin-left: 10%;
@@ -276,7 +276,7 @@ body {
   border: 1px solid #003b7a;
   box-shadow: 0px 0px 15px 0px #003b7a;
 }
-.contact{
+.contact {
   display: flex;
   width: 320px;
   margin-left: 10%;
@@ -287,11 +287,11 @@ body {
   border: 1px solid #003b7a;
   box-shadow: 0px 0px 15px 0px #003b7a;
 }
-form{
+form {
   display: flex;
   flex-direction: column;
 }
-#logininput{
+#logininput {
   width: 310px;
   background-color: #333333bb;
   border: none;
@@ -301,12 +301,12 @@ form{
   color: white;
   padding: 5px;
 }
-#logininput:focus{
+#logininput:focus {
   box-shadow: 0px 0px 5px 0px #003b7a;
   border: 1.5px solid #003b7a;
   background-color: #333333;
 }
-#loginbutton{
+#loginbutton {
   margin-top: 10px;
   background-color: #003b7a;
   color: white;
@@ -315,16 +315,16 @@ form{
   border-radius: 5px;
   cursor: pointer;
 }
-#loginbutton:hover{
+#loginbutton:hover {
   background-color: #004fa3;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-#loginerror{
+#loginerror {
   background-color: #7a0000;
   border-radius: 5px;
   padding: 3px;
 }
-.Signup{
+.Signup {
   display: flex;
   width: 320px;
   margin-left: 10%;
@@ -335,52 +335,81 @@ form{
   border: 1px solid #003b7a;
   box-shadow: 0px 0px 15px 0px #003b7a;
 }
-.sex{
+.sex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-bottom: 10px;
 }
-.sexradio{
+.sexradio {
   margin-right: 50px;
 }
-.about-container{
+.about-container {
   margin-top: 8%;
   margin-left: 3%;
   color: white;
 }
-h2{
+h2 {
   color: #004fa3;
 }
-h3{
+h3 {
   color: #949494;
 }
-#abouth1{
+#abouth1 {
   color: #003b7a;
 }
-.recipes,.Programs{ 
+.recipes,
+.Programs,
+.WeekPrograme {
   /* background-color: white; */
   text-align: center;
   margin-top: 10%;
-  margin-left: 1%;
+  margin-left: 0%;
   color: white;
 }
-.recipesh1,.Programsh1{
+.recipesh1,
+.Programsh1,
+.WeekProgrameh1 {
+  margin-bottom: 6%;
   color: #004fa3;
   font-size: 40px;
 }
-.Programsh2{
+.Programsh2 {
   color: #8b8b8b;
   font-size: 30px;
 }
-.recipeslist{
+.recipeslist {
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
   color: white;
   flex-wrap: wrap;
 }
-.recipe,.Programexercice{
+.WeekProgramelist {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  color: white;
+  flex-wrap: wrap;
+}
+.workout {
+  text-align: left;
+  width: 20%;
+  border-radius: 10px;
+  background-color: #33333380;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+}
+.programweek {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.recipe,
+.Programexercice {
   text-align: left;
   width: 25%;
   border-radius: 10px;
@@ -390,8 +419,9 @@ h3{
   padding: 10px;
   margin-bottom: 30px;
 }
-#searchinput{
-  transition: width 1s ease-in-out, box-shadow 1s ease-in-out, border 1s ease-in-out, background-color 1s ease-in-out;
+#searchinput {
+  transition: width 1s ease-in-out, box-shadow 1s ease-in-out,
+    border 1s ease-in-out, background-color 1s ease-in-out;
   width: 20%;
   background-color: #333333bb;
   border: none;
@@ -401,14 +431,15 @@ h3{
   color: white;
   padding: 5px;
 }
-#searchinput:focus{
+#searchinput:focus {
   width: 40%;
   box-shadow: 0px 0px 5px 0px #003b7a;
   border: 1.5px solid #003b7a;
   background-color: #333333;
 }
 
-#btnadd,#btnsend{
+#btnadd,
+#btnsend {
   background-color: #003b7a;
   color: white;
   border: none;
@@ -417,11 +448,11 @@ h3{
   cursor: pointer;
   height: 30px;
 }
-#btnadd:hover{
+#btnadd:hover {
   background-color: #004fa3;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-#btnview{
+#btnview {
   background-color: #333333;
   color: white;
   border: none;
@@ -431,16 +462,16 @@ h3{
   height: 30px;
   margin-left: 20px;
 }
-#btnview:hover{
+#btnview:hover {
   background-color: #3333337c;
-  transition: .5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
-.recipe2{
+.recipe2 {
   margin-top: 10%;
   padding: 2%;
   margin-left: 3%;
 }
-#textarea{
+#textarea {
   max-width: 310px;
   max-height: 100px;
   background-color: #333333bb;
@@ -451,19 +482,19 @@ h3{
   color: white;
   padding: 5px;
 }
-.Program{
+.Program {
   /* background-color: #33333385; */
   margin-bottom: 50px;
   margin-top: 50px;
   padding: 10px;
 }
-.listexercice{
+.listexercice {
   flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
   margin-top: 5%;
 }
-.exercice{
+.exercice {
   text-align: left;
   width: 25%;
   border-radius: 10px;
@@ -472,4 +503,19 @@ h3{
   backdrop-filter: blur(10px);
   padding: 10px;
   margin-bottom: 30px;
+}
+.Save{
+  background-color: #004fa3;
+  color: white;
+  border: 1px solid #004fa3;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.Save:hover{
+  background-color: #003b7a;
+  border: 1ps solid #003b7a;
 }
