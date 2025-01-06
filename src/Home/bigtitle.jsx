@@ -10,9 +10,11 @@ export default function BigTitle() {
           FitTrack{" "}
         </span>
       </h1>
-      <Link to="/login">
-            <button id="login2">Get Started <img src="../images/right.png" alt="logo" id="icon" /></button>
-          </Link>
+      <Link to="/pages/login">
+        <button id="login2">
+          Get Started <img src="../images/right.png" alt="logo" id="icon" />
+        </button>
+      </Link>
     </div>
   );
 }
